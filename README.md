@@ -7,6 +7,12 @@ workspace, answers that) — this flips the question to an audit: scan
 instead of `127.0.0.1`/`::1`, the exact mistake that leaves a dev
 Postgres or Redis reachable from the network.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
